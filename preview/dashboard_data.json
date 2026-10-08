@@ -1,0 +1,554 @@
+{
+  "kpis": {
+    "totalAUM": 1833500000,
+    "confirmedOnTimePct": 93.4,
+    "assetsVerifiedPct": 80.6,
+    "openQueries": 3,
+    "flaggedTxns": 23,
+    "pendingTxns": 48,
+    "discrepancyAssets": 3,
+    "totalMarketValue": 1801319401,
+    "avgQueryAge": 5.3,
+    "slaPct": 87.8
+  },
+  "page1": {
+    "months": [
+      "Apr 2026",
+      "May 2026",
+      "Jun 2026",
+      "Jul 2026",
+      "Aug 2026",
+      "Sep 2026"
+    ],
+    "cashByType": {
+      "Capital Call": [
+        227.58,
+        193.84,
+        229.14,
+        192.09,
+        139.38,
+        171.26
+      ],
+      "Subscription": [
+        186.56,
+        119.9,
+        121.66,
+        151.86,
+        97.63,
+        155.05
+      ],
+      "Distribution": [
+        86.18,
+        146.43,
+        107.2,
+        85.04,
+        110.2,
+        98.56
+      ],
+      "Redemption": [
+        42.31,
+        25.19,
+        35.48,
+        58.24,
+        36.48,
+        21.54
+      ],
+      "Management Fee": [
+        2.95,
+        0.69,
+        1.91,
+        2.49,
+        1.88,
+        1.39
+      ],
+      "Expense Payment": [
+        1.22,
+        1.88,
+        1.84,
+        0.86,
+        2.34,
+        2.27
+      ]
+    },
+    "aumByStrategy": {
+      "labels": [
+        "Private Equity",
+        "Infrastructure",
+        "Real Assets",
+        "Private Debt",
+        "Venture Capital"
+      ],
+      "values": [
+        610.0,
+        540.0,
+        287.5,
+        231.0,
+        165.0
+      ]
+    },
+    "aumByJurisdiction": {
+      "labels": [
+        "Luxembourg",
+        "Ireland",
+        "Guernsey",
+        "Jersey"
+      ],
+      "values": [
+        577.0,
+        540.0,
+        485.5,
+        231.0
+      ]
+    }
+  },
+  "page2": {
+    "types": [
+      "Capital Call",
+      "Subscription",
+      "Distribution",
+      "Redemption",
+      "Management Fee",
+      "Expense Payment"
+    ],
+    "countByTypeStatus": {
+      "Confirmed": [
+        124,
+        88,
+        82,
+        33,
+        63,
+        50
+      ],
+      "Pending": [
+        10,
+        10,
+        14,
+        4,
+        3,
+        7
+      ],
+      "Flagged": [
+        7,
+        5,
+        5,
+        1,
+        4,
+        1
+      ]
+    },
+    "weeklyVolume": {
+      "labels": [
+        "30 Mar",
+        "06 Apr",
+        "13 Apr",
+        "20 Apr",
+        "27 Apr",
+        "04 May",
+        "11 May",
+        "18 May",
+        "25 May",
+        "01 Jun",
+        "08 Jun",
+        "15 Jun",
+        "22 Jun",
+        "29 Jun",
+        "06 Jul",
+        "13 Jul",
+        "20 Jul",
+        "27 Jul",
+        "03 Aug",
+        "10 Aug",
+        "17 Aug",
+        "24 Aug",
+        "31 Aug",
+        "07 Sep",
+        "14 Sep",
+        "21 Sep",
+        "28 Sep"
+      ],
+      "values": [
+        11,
+        21,
+        22,
+        24,
+        24,
+        18,
+        22,
+        21,
+        20,
+        20,
+        12,
+        23,
+        18,
+        23,
+        17,
+        16,
+        13,
+        22,
+        22,
+        22,
+        18,
+        17,
+        21,
+        17,
+        16,
+        20,
+        11
+      ]
+    },
+    "needsAttention": [
+      {
+        "TransactionID": "TXN1506",
+        "FundName": "Kestrel Private Debt Fund",
+        "Date": "2026-09-30",
+        "Type": "Redemption",
+        "Amount_EUR": 3720045.06,
+        "Status": "Flagged"
+      },
+      {
+        "TransactionID": "TXN1505",
+        "FundName": "Meridian Private Equity Fund I",
+        "Date": "2026-09-29",
+        "Type": "Redemption",
+        "Amount_EUR": 1394920.46,
+        "Status": "Pending"
+      },
+      {
+        "TransactionID": "TXN1494",
+        "FundName": "Kestrel Private Debt Fund",
+        "Date": "2026-09-24",
+        "Type": "Expense Payment",
+        "Amount_EUR": 263237.49,
+        "Status": "Pending"
+      },
+      {
+        "TransactionID": "TXN1490",
+        "FundName": "Kestrel Private Debt Fund",
+        "Date": "2026-09-23",
+        "Type": "Subscription",
+        "Amount_EUR": 13979666.72,
+        "Status": "Pending"
+      },
+      {
+        "TransactionID": "TXN1489",
+        "FundName": "Solstice Infrastructure Fund",
+        "Date": "2026-09-22",
+        "Type": "Management Fee",
+        "Amount_EUR": 171419.72,
+        "Status": "Pending"
+      },
+      {
+        "TransactionID": "TXN1488",
+        "FundName": "Alderwood Venture Fund III",
+        "Date": "2026-09-22",
+        "Type": "Subscription",
+        "Amount_EUR": 2010196.66,
+        "Status": "Flagged"
+      },
+      {
+        "TransactionID": "TXN1486",
+        "FundName": "Alderwood Venture Fund III",
+        "Date": "2026-09-22",
+        "Type": "Subscription",
+        "Amount_EUR": 14087245.74,
+        "Status": "Pending"
+      },
+      {
+        "TransactionID": "TXN1483",
+        "FundName": "Meridian Private Equity Fund I",
+        "Date": "2026-09-21",
+        "Type": "Distribution",
+        "Amount_EUR": 3382356.98,
+        "Status": "Pending"
+      },
+      {
+        "TransactionID": "TXN1481",
+        "FundName": "Meridian Private Equity Fund I",
+        "Date": "2026-09-21",
+        "Type": "Expense Payment",
+        "Amount_EUR": 275729.1,
+        "Status": "Flagged"
+      },
+      {
+        "TransactionID": "TXN1464",
+        "FundName": "Northbridge Real Assets II",
+        "Date": "2026-09-14",
+        "Type": "Subscription",
+        "Amount_EUR": 12200691.25,
+        "Status": "Pending"
+      },
+      {
+        "TransactionID": "TXN1462",
+        "FundName": "Meridian Private Equity Fund I",
+        "Date": "2026-09-11",
+        "Type": "Distribution",
+        "Amount_EUR": 2801820.61,
+        "Status": "Pending"
+      },
+      {
+        "TransactionID": "TXN1458",
+        "FundName": "Alderwood Venture Fund III",
+        "Date": "2026-09-09",
+        "Type": "Capital Call",
+        "Amount_EUR": 8195487.72,
+        "Status": "Flagged"
+      },
+      {
+        "TransactionID": "TXN1451",
+        "FundName": "Thornfield Secondaries Fund II",
+        "Date": "2026-09-07",
+        "Type": "Distribution",
+        "Amount_EUR": 11171202.8,
+        "Status": "Flagged"
+      },
+      {
+        "TransactionID": "TXN1435",
+        "FundName": "Alderwood Venture Fund III",
+        "Date": "2026-09-02",
+        "Type": "Capital Call",
+        "Amount_EUR": 5027106.96,
+        "Status": "Flagged"
+      },
+      {
+        "TransactionID": "TXN1430",
+        "FundName": "Thornfield Secondaries Fund II",
+        "Date": "2026-09-01",
+        "Type": "Expense Payment",
+        "Amount_EUR": 11162.03,
+        "Status": "Pending"
+      }
+    ]
+  },
+  "page3": {
+    "verifStatus": {
+      "labels": [
+        "Verified",
+        "Pending",
+        "Discrepancy"
+      ],
+      "values": [
+        50,
+        9,
+        3
+      ]
+    },
+    "valueByAssetType": {
+      "labels": [
+        "Debt Instrument",
+        "Infrastructure Asset",
+        "Equity Stake",
+        "Fund Interest",
+        "Cash & Equivalents",
+        "Real Estate Asset"
+      ],
+      "values": [
+        445.0,
+        364.4,
+        339.8,
+        279.9,
+        222.1,
+        150.2
+      ]
+    },
+    "followup": [
+      {
+        "HoldingID": "AST0017",
+        "FundName": "Northbridge Real Assets II",
+        "AssetType": "Cash & Equivalents",
+        "MarketValue_EUR": 31038328.76,
+        "VerificationStatus": "Discrepancy"
+      },
+      {
+        "HoldingID": "AST0034",
+        "FundName": "Alderwood Venture Fund III",
+        "AssetType": "Debt Instrument",
+        "MarketValue_EUR": 21127552.01,
+        "VerificationStatus": "Discrepancy"
+      },
+      {
+        "HoldingID": "AST0043",
+        "FundName": "Kestrel Private Debt Fund",
+        "AssetType": "Fund Interest",
+        "MarketValue_EUR": 42441872.39,
+        "VerificationStatus": "Discrepancy"
+      },
+      {
+        "HoldingID": "AST0008",
+        "FundName": "Meridian Private Equity Fund I",
+        "AssetType": "Debt Instrument",
+        "MarketValue_EUR": 23850646.14,
+        "VerificationStatus": "Pending"
+      },
+      {
+        "HoldingID": "AST0013",
+        "FundName": "Northbridge Real Assets II",
+        "AssetType": "Equity Stake",
+        "MarketValue_EUR": 52027772.42,
+        "VerificationStatus": "Pending"
+      },
+      {
+        "HoldingID": "AST0016",
+        "FundName": "Northbridge Real Assets II",
+        "AssetType": "Infrastructure Asset",
+        "MarketValue_EUR": 26722163.78,
+        "VerificationStatus": "Pending"
+      },
+      {
+        "HoldingID": "AST0023",
+        "FundName": "Solstice Infrastructure Fund",
+        "AssetType": "Real Estate Asset",
+        "MarketValue_EUR": 10696605.72,
+        "VerificationStatus": "Pending"
+      },
+      {
+        "HoldingID": "AST0032",
+        "FundName": "Alderwood Venture Fund III",
+        "AssetType": "Debt Instrument",
+        "MarketValue_EUR": 45678249.87,
+        "VerificationStatus": "Pending"
+      },
+      {
+        "HoldingID": "AST0039",
+        "FundName": "Alderwood Venture Fund III",
+        "AssetType": "Debt Instrument",
+        "MarketValue_EUR": 7622203.42,
+        "VerificationStatus": "Pending"
+      },
+      {
+        "HoldingID": "AST0041",
+        "FundName": "Kestrel Private Debt Fund",
+        "AssetType": "Cash & Equivalents",
+        "MarketValue_EUR": 45926267.1,
+        "VerificationStatus": "Pending"
+      },
+      {
+        "HoldingID": "AST0049",
+        "FundName": "Kestrel Private Debt Fund",
+        "AssetType": "Debt Instrument",
+        "MarketValue_EUR": 39209737.79,
+        "VerificationStatus": "Pending"
+      },
+      {
+        "HoldingID": "AST0055",
+        "FundName": "Thornfield Secondaries Fund II",
+        "AssetType": "Real Estate Asset",
+        "MarketValue_EUR": 27882501.23,
+        "VerificationStatus": "Pending"
+      }
+    ]
+  },
+  "page4": {
+    "categories": [
+      "Cash Monitoring",
+      "Documentation",
+      "Other",
+      "Safekeeping",
+      "Valuation"
+    ],
+    "catStatus": {
+      "Closed": [
+        30,
+        19,
+        6,
+        23,
+        12
+      ],
+      "In Progress": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "Open": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "weeklyNew": {
+      "labels": [
+        "30 Mar",
+        "06 Apr",
+        "13 Apr",
+        "20 Apr",
+        "27 Apr",
+        "04 May",
+        "11 May",
+        "18 May",
+        "25 May",
+        "01 Jun",
+        "08 Jun",
+        "15 Jun",
+        "22 Jun",
+        "29 Jun",
+        "06 Jul",
+        "13 Jul",
+        "20 Jul",
+        "27 Jul",
+        "17 Aug",
+        "24 Aug",
+        "31 Aug",
+        "07 Sep",
+        "14 Sep",
+        "21 Sep",
+        "28 Sep"
+      ],
+      "values": [
+        4,
+        3,
+        2,
+        2,
+        4,
+        2,
+        5,
+        7,
+        7,
+        5,
+        3,
+        4,
+        6,
+        4,
+        3,
+        2,
+        3,
+        1,
+        1,
+        5,
+        5,
+        4,
+        6,
+        3,
+        2
+      ]
+    },
+    "openTable": [
+      {
+        "QueryID": "QRY0089",
+        "FundName": "Meridian Private Equity Fund I",
+        "Category": "Cash Monitoring",
+        "DateRaised": "2026-09-22",
+        "Status": "In Progress",
+        "AgeDays": 8
+      },
+      {
+        "QueryID": "QRY0091",
+        "FundName": "Solstice Infrastructure Fund",
+        "Category": "Valuation",
+        "DateRaised": "2026-09-24",
+        "Status": "In Progress",
+        "AgeDays": 6
+      },
+      {
+        "QueryID": "QRY0093",
+        "FundName": "Alderwood Venture Fund III",
+        "Category": "Safekeeping",
+        "DateRaised": "2026-09-28",
+        "Status": "In Progress",
+        "AgeDays": 2
+      }
+    ]
+  }
+}
